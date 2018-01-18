@@ -1,5 +1,5 @@
 import React from 'react';
-import { View ,Text, StyleSheet} from 'react-native';
+import { View ,Text, StyleSheet ,ActivityIndicator} from 'react-native';
 
 
 
@@ -11,6 +11,8 @@ render(){
         <View style={style.view}>
             <Text style={style.title}>A propos de moi</Text>
             <Text>lorem ipsum   </Text>
+
+            <ActivityIndicator size="large" color="red" />
 
         </View>
 
