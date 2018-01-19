@@ -12,7 +12,7 @@ render(){
             <Text style={style.title}>A propos de moi</Text>
             <Text>lorem ipsum   </Text>
 
-            <ActivityIndicator size="large" color="red" />
+            <ActivityIndicator style={style.view} size="large" color="red" />
 
         </View>
 
@@ -26,6 +26,7 @@ render(){
 const style=StyleSheet.create({
     view:{
         margin:20
+
     },
     
     title: {

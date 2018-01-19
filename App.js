@@ -1,10 +1,9 @@
 import React from 'react';
-import About from './compponents/about';
-
+import Search  from './compponents/search';
 export default class App extends React.Component {
   render() {
     return (
-      <About />
+      <Search />
     );
   }
 }
